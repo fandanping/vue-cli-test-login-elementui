@@ -1,8 +1,9 @@
 import login from '../components/login/login.vue'
+import main from '../components/main.vue'
 export default([
   {
     path:'/',
-    redirect:'/login'
+    component:main
   },
   {
     path:'/login',
